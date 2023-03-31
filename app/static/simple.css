@@ -1,0 +1,37 @@
+body {
+  margin: 30px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.parent {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 170px);
+  justify-content: center;
+}
+
+.block {
+  padding: 10px;
+  background-color: #EFCB68;
+  border-radius: 10px;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+.block {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.block:hover {
+  background-color: #f8eccf;
+  cursor:pointer;
+}
