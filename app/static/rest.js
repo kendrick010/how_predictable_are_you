@@ -1,5 +1,3 @@
-function select_button(button) {
-    let route = "/button" + String(button);
-    console.log(route);
-    fetch(route);
+function select_button(button_id) {
+    document.getElementById(button_id).className = "blank";
 }

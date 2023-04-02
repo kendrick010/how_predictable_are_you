@@ -35,3 +35,10 @@ h1 {
   background-color: #f8eccf;
   cursor:pointer;
 }
+
+.blank {
+  background-color: #FEFEFE;
+  border: none;
+  display: grid;
+  color: transparent;
+}
